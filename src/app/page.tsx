@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Page() {
-  return <h1>Hello, home page!</h1>
+  return <Link href="/src/app/dashboard">Dashboard</Link>
 }
